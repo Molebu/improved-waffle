@@ -1,0 +1,49 @@
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 30px;
+  border: 2px solid;
+  border-radius: 15px;
+}
+
+.weather-temperature strong {
+  position: relative;
+  top: 15px;
+  font-size: 55px;
+  font-weight: 450;
+  line-height: 1;
+}
+
+.weather-description {
+  position: relative;
+  text-transform: capitalize;
+}
+
+.units {
+  position: relative;
+  top: -15px;
+}
+
+.celsius {
+  text-decoration: none;
+}
+.fahrenheit {
+  text-decoration: none;
+}
+
+.humidity-wind {
+  position: relative;
+  top: +20px;
+}
+
+.weather-forecast {
+  text-align: center;
+}
+
+.forecast {
+  font-size: 20px;
+  margin-top: 20px;
+}
